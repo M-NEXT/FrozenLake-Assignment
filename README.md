@@ -11,6 +11,11 @@ The agent is rewarded for finding a walkable path to a goal tile.
 * *H: hole, fall in the hole*
 * *G: goal, reward*
 
+**There are two types of environment in which the agent has to find the correct path-**
+1. Deteministic (Non Slippery)
+1. Stochastic (Slippery)
+
+
 ## Concept Used-
 * __Policy iteration__ : Policy Iteration is an algorithm in ‘ReInforcement Learning’, which helps in learning the optimal policy which maximizes the long term discounted reward. 
 n policy iteration algorithms, you start with a random policy, then find the value function of that policy (policy evaluation step), then find a new (improved) policy based on the previous value function, and so on. 
@@ -22,6 +27,18 @@ In this process, each policy is guaranteed to be a strict improvement over the p
 .Value iteration starts at the "end" and then works backward, refining an estimate of either Q* or V*. ***Finding value function + new policy extraction and improving value function*** and iterating over it again and again.
 
 To read more, Click on the [link](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+
+## Output- 
+**4x4 Deterministic Lake environment**
+![4x4 Deterministic Lake environment](https://github.com/Tanmay-Pathrabe/FrozenLake-Assignment/blob/main/Output%20clips/4x4_Deterministic_Lake.gif)
+
+
+**8x8 Deterministic Lake environment**
+![8x8 Deterministic Lake environment](https://github.com/Tanmay-Pathrabe/FrozenLake-Assignment/blob/main/Output%20clips/8x8_Deterministic_Lake.gif)
+
+
+**4x4 Stochastic Lake environment**    
+![4x4 Stochastic Lake environment](https://github.com/Tanmay-Pathrabe/FrozenLake-Assignment/blob/main/Output%20clips/4x4_Stochastic_Lake.gif)
 
 ## Built with- 
 * Pyhton3
