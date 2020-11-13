@@ -10,8 +10,8 @@ import time
 
 
 # In[2]:
-
-
+#Rerunning is block might give an error in some IDE's so comment this block accordingly
+############################################################
 from gym.envs.toy_text import frozen_lake, discrete
 from gym.envs.registration import register
 
@@ -33,7 +33,7 @@ register(
     entry_point='gym.envs.toy_text.frozen_lake:FrozenLakeEnv',
     kwargs={'map_name': '4x4',
             'is_slippery': True})
-
+#############################################################
 
 # In[3]:
 
