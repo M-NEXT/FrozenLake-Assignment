@@ -6,6 +6,11 @@ The agent is rewarded for finding a walkable path to a goal tile.
 
 ![4x4 gridworld](https://github.com/Tanmay-Pathrabe/FrozenLake-Assignment1/blob/main/Output%20clips/Frozen-Lake.png)
 
+* *S: starting point, safe*
+* *F: frozen surface, safe*
+* *H: hole, fall in the hole*
+* *G: goal, reward*
+
 ## Concept Used-
 * __Policy iteration__ : Policy Iteration is an algorithm in ‘ReInforcement Learning’, which helps in learning the optimal policy which maximizes the long term discounted reward. 
 n policy iteration algorithms, you start with a random policy, then find the value function of that policy (policy evaluation step), then find a new (improved) policy based on the previous value function, and so on. 
