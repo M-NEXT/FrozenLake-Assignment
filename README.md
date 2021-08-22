@@ -44,7 +44,7 @@ To read more, Click on the [link](https://web.stanford.edu/class/psych209/Readin
 * Pyhton3
 * Jupyter Notebook
 
-## Libraries used-
+## Dependancies-
 1. [numpy](https://numpy.org/doc/)
 1. [gym](https://gym.openai.com/)
 1. [time](https://docs.python.org/3/library/time.html)
